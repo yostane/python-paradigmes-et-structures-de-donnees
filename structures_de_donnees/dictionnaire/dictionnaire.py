@@ -10,6 +10,6 @@ def compter_mots(texte):
             dict[mot] = 1
     return dict
 
-res = compte_mots("Ala Met Asn Glu Met Cys Asn Glu Hou Ala Met Gli Asn Asn")
+res = compter_mots("Ala Met Asn Glu Met Cys Asn Glu Hou Ala Met Gli Asn Asn")
 for c in res.keys():
-    print(c,"-->",res[c])
+    print(c, "-->", res[c])

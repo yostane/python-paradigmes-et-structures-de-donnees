@@ -25,8 +25,8 @@ menu = """
 
     Votrechoix : """
 
-whileTrue:
-    whileTrue:
+while True:
+    while True:
         try:
             choix = input(menu).strip()[0].lower()
         except:

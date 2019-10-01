@@ -43,13 +43,17 @@ Soient les fonctions utilitaires suivantes :
             return arbre[2]
 
 1. Complétez la liste des fonctions utilitaires en implémentant les fonctions suivantes:
-  a. 'ajouter_sous_arbre_gauche(arbre, sous_arbre)' : ajoute le sous-arbre gauche, 'sous-arbre', à l'arbre passé en paramètre
-  b. 'ajouter_sous_arbre_droit(arbre, sous_arbre)' :  ajoute le sous-arbre droit, 'sous-arbre', à l'arbre passé en paramètre
+
+    a. 'ajouter_sous_arbre_gauche(arbre, sous_arbre)' : ajoute le sous-arbre gauche, 'sous-arbre', à l'arbre passé en paramètre
+
+    b. 'ajouter_sous_arbre_droit(arbre, sous_arbre)' :  ajoute le sous-arbre droit, 'sous-arbre', à l'arbre passé en paramètre
 
 2. Implémentez différentes formes de parcours
-  a. Implémentez une fonction 'prefixe' qui affiche les éléments d'un arbre en parcours préfixe (NGD)
-  b. Implémentez une fonction 'infixe' qui affiche les éléments d'un arbre en parcours infixe (GND)
 
-Conseil : utilisez la récursivité
+    a. Implémentez une fonction 'prefixe' qui affiche les éléments d'un arbre en parcours préfixe (NGD)
+
+    b. Implémentez une fonction 'infixe' qui affiche les éléments d'un arbre en parcours infixe (GND)
+
+    Conseil : utilisez la récursivité
 
 3. Valider votre implémentation par un programme principal qui utilise l'arbre défini en début d'énoncé

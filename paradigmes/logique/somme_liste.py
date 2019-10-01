@@ -17,4 +17,9 @@ expr1 = (add, (mul, (add, 1, (mul, 2, a)), b),
          (mul, 3, c))  # Expressions to match
 expr2 = (add, (mul, c, 3), (mul, b, (add, (mul, 2, a), 1)))
 expr3 = (add, (add, (mul, (mul, 2, a), b), b), (mul, 3, c))
-run(0, (a, b, c), eq(expr1, expression))  # Calls to run()
+res = run(0, (a, b, c), eq(expr1, expression))  # Calls to run()
+
+print(expr1)
+print(expr2)
+print(expr3)
+print(res)

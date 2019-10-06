@@ -1,5 +1,7 @@
 ## Arbre : Travaux pratiques
 
+### Exercices
+
 Pour construire un arbre binaire sous Python, on peut utiliser les listes ou autres structures de données.
 Dans ce TP, nous faisons le choix d'utiliser les listes pour créer et gérer un arbre binaire.
 * la liste sera sous la forme : [Donnée, sous-arbre gauche, sous-arbre droit]

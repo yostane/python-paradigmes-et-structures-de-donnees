@@ -1,6 +1,6 @@
 ## Tableau : Travaux pratiques
 
-### Insertion avec list et deque
+### Exercice - Insertion avec list et deque, omparaison
 
 On veut comparer les coûts d’insertion en début et fin de liste pour un grand nombre d’éléments
 
@@ -14,3 +14,7 @@ On veut comparer les coûts d’insertion en début et fin de liste pour un gran
   
    Conseil : utiliser la méthode 'insert(item)' et 'appendLeft(item)'
  
+### Liens
+
+* [Tutorial pour utiliser les listes comme des piles](https://docs.python.org/fr/3/tutorial/datastructures.html#using-lists-as-stacks)
+* [Tutorial pour utiliser les listes comme des files](https://docs.python.org/fr/3/tutorial/datastructures.html#using-lists-as-queues)

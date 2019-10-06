@@ -1,5 +1,7 @@
 ## Dictionnaire : Travaux pratiques
 
+### Exercices
+
 1. Écrire une fonction 'compter_mots' ayant un argument, une chaîne de caractères, et qui renvoie un dictionnaire qui contient la fréquence de tous les mots de la chaîne entrée.
 
 2. Le type dictionnaire (ou tableau associatif) permet de représenter des tableaux structurés. En effet, à chaque clé un dictionnaire associe une valeur, et cette valeur peut elle-même être une structure de donnée (liste, tuple ou un dictionnaire...).
@@ -23,3 +25,7 @@
   ```bash
   >>> print dico["Au"]["Z/A"][0] # affiche:79
   ```
+  
+### Liens
+
+* [Tutorial sur les dictionnaires en Python](https://docs.python.org/fr/3/tutorial/datastructures.html#dictionaries)

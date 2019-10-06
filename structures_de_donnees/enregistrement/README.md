@@ -1,6 +1,6 @@
 ## Enregistrement : Travaux pratiques
 
-### Calcul de moyenne
+### Exercices - Calcul de moyenne
 
 On considère le cas d’une groupe d’étudiants qui suivent une formation en réseaux et télécommunications.
 Le tableau 1 donne les coefficients appliqués pour chaque module.

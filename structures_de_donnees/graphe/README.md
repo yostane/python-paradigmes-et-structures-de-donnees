@@ -1,6 +1,6 @@
 ## Graphe : Travaux pratiques
 
-### Matrice d'adjacence pour un graphe non-orienté
+### Exercice - Matrice d'adjacence pour un graphe non-orienté
 
 1. Déclarer une variable A qui remplit la matrice d'adjacence avec le graphe non-orienté suivant :
    
@@ -28,3 +28,8 @@
    Exemple : "Sommmet s0 a comme voisin : s2 s4"
 
 5. Tester votre fonction en l'appelant pour chaque sommet du graphe.
+
+### Liens
+
+* [Liste imbriquée en Python](https://docs.python.org/fr/3/tutorial/datastructures.html?highlight=matrice#nested-list-comprehensions)
+* [Matrice d'adjacence - Wikipedia](https://fr.wikipedia.org/wiki/Matrice_d%27adjacence)

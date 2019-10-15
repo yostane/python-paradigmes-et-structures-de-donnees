@@ -11,11 +11,15 @@ def calculer(x, y, operation):
 
 
 f = additionner
-print(additionner(2, 4))
-print(f(4, 5))
-print(calculer(1, 3, f))
-print(calculer(1, 3, additionner))
-print(calculer(1, 3, lambda toto, tutu: toto * tutu))
+print(0)
+x = calculer(7, 1, additionner)
+print(x)
+print(calculer(7, 1, f))
+print(calculer(5, 6, lambda x, y: x * y))
+print(additionner(3, 4))
+x = f(5, 10)
+print(x)
+
 
 # calcul de factorielle
 num = 4
@@ -23,15 +27,10 @@ fact = 1
 for i in range(num):
     fact = fact * (i + 1)
 
-print("factorielle", fact)
-
-# si x est négatif, la factorielle est égale à 0
+print(fact)
 
 
 def calculer_factorielle(x):
-    if x < 0:
-        return 0
-
     if x <= 1:
         return 1
     else:
@@ -39,3 +38,10 @@ def calculer_factorielle(x):
 
 
 print(calculer_factorielle(4))
+
+# Non pure
+def generer_aleatoire(x):
+    return random.randint(0, 10) + x
+
+
+print(generer_aleatoire(4), generer_aleatoire(4), generer_aleatoire(4))

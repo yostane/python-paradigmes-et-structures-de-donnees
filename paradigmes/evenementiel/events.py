@@ -10,6 +10,7 @@ can = Canvas(fen, width=200, height=200, bg="red")
 
 def update():
     lab.config(text="hello")
+    bouton2.config(text="Bonjour")
 
 
 bouton2.config(command=update)

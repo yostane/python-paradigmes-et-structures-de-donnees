@@ -1,10 +1,21 @@
 class Identite:
+
+    nbIdentite = 0  # attribut statique
+
     def __init__(self, nom, prenom):
+        Identite.nbIdentite += 1
         self.nom = nom
         self.prenom = prenom
+        self.num = Identite.nbIdentite
 
+
+print(Identite.nbIdentite)
 
 i = Identite("Vincent", "Ernoult")
+print(Identite.nbIdentite)
+
+i2 = Identite("Vincent2", "Ernoult2")
+print(Identite.nbIdentite)
 
 
 class Partient:

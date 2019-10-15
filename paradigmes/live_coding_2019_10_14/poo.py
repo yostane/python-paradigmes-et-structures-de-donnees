@@ -1,9 +1,7 @@
 class Pokemon:
-    pv = 0  # attribut
-    nom = ""
-
     def __init__(self, points_de_vie):  # constructeur
-        self.pv = points_de_vie
+        self.pv = points_de_vie  # attribut pv
+        self.nom = ""  # attribut nom
         print("hello")
 
     def __str__(self):

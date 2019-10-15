@@ -1,13 +1,10 @@
-
 class Pokemon:
-    # propriété
-    # variable d'instance
-    # attribut (moins utilisé)
-    pv = 0
-    _nom = ""
 
     # constructeur
     def __init__(self, points_de_vie, nom):
+        # propriété
+        # variable d'instance
+        # attribut (moins utilisé)
         self.pv = points_de_vie
         self._nom = nom
 

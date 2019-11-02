@@ -22,7 +22,7 @@ class Etudiant:
         self.notes[module] = note
 
     def moyenne(self):
-        res = 0.03
+        res = 0.0
         for m in Etudiant.modules.keys():
             res = res + (self.notes[m] * Etudiant.modules[m])
 

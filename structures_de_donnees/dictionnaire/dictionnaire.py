@@ -10,6 +10,8 @@ def compter_mots(texte):
             dict[mot] = 1
     return dict
 
-res = compter_mots("Ala Met Asn Glu Met Cys Asn Glu Hou Ala Met Gli Asn Asn")
+texte = "Ala Met Asn Glu Met Cys Asn Glu Hou Ala Met Gli Asn Asn"
+res = compter_mots(texte)
+print("Fréquence des mots pour le texte :'",texte,"'")
 for c in res.keys():
     print(c, "-->", res[c])

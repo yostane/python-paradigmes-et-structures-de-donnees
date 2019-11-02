@@ -23,7 +23,7 @@ menu = """
 (S)upprimer
 (Q)uitter
 
-    Votrechoix : """
+    Votre choix : """
 
 while True:
     while True:

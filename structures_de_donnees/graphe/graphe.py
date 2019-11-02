@@ -15,11 +15,11 @@ def arete(matrice, s1, s2):
 
 
 def voisins(matrice, sommet):
-    print("\nSommet ", sommet, " a comme voisin : ", end='')
+    print("\nSommet ", sommet, " a comme voisin : ")
     s = 0
     while s < len(matrice):
         if arete(matrice, s, sommet):
-            print("s", s, end='  ')
+            print("s", s)
         s = s + 1
 
 # Programme principal

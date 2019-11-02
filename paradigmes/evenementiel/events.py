@@ -5,12 +5,15 @@ bouton = Button(fen, text="quitter", command=fen.destroy)
 lab = Label(fen, text="Trololo")
 champs = Entry(fen)
 bouton2 = Button(fen, text="the big red button")
-can = Canvas(fen, width =200, height =200, bg ="red")
+can = Canvas(fen, width=200, height=200, bg="red")
+
 
 def update():
-    lab.config(text = "hello")
+    lab.config(text="hello")
+    bouton2.config(text="Bonjour")
 
-bouton2.config(command = update)
+
+bouton2.config(command=update)
 
 can.pack()
 bouton.pack()

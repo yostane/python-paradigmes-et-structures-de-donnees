@@ -1,16 +1,17 @@
 class Personnage:
-
-    hp = 100
-    attaque = 10
-    niveau = 1
+    def __init__(self):
+        self.hp = 100
+        self.attaque = 10
+        self.niveau = 1
 
     def augmenterNiveau(self):
         self.niveau += 1
         self.attaque += 1
         self.hp += 10
-    
+
     def donnerStatut(self):
         print("HP", self.hp, "Attaque", self.attaque)
+
 
 class Monstre(Personnage):
     hp = 30
@@ -20,9 +21,11 @@ class Monstre(Personnage):
         self.attaque += 2
         self.hp += 5
 
+
 class Hero(Personnage):
     hp = 500
     attaque = 5
+
 
 class Assistant(Personnage):
     hp = 1000
@@ -35,6 +38,7 @@ class Assistant(Personnage):
     def donnerStatut(self):
         super().donnerStatut()
         print("nom", self.nom)
+
 
 m = Monstre()
 m.donnerStatut()
